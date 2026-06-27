@@ -14,7 +14,7 @@ export default function MobileNav() {
             <SheetTitle><span>Welcome to Food Ordering Platform</span></SheetTitle>
             <Separator/>
             <SheetDescription className = "flex">
-                <Button className ="flex-1 font-bold bg-orange-500">
+                <Button className ="flex-1 font-bold bg-orange-500 text-white">
                     Login
                 </Button>
             </SheetDescription>
