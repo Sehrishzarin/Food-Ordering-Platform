@@ -14,7 +14,7 @@ function Auth0ProviderWithNavigate({ children }: Props) {
     if(!domain || !clientId || !redirectUri) {
         throw new Error('Missing Auth0 configuration. Please check your environment variables.')
     }
-
+//@ts-ignore
     const onRedirectCallback = (appState?: AppState, user?: User) => {
      console.log("User", user)
     
